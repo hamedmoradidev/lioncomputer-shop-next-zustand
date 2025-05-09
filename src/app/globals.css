@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@theme {
+  --color-promotion: #dcf8ea;
+  --color-promotion-text: #1b7875;
+  --color-suggestion: #edfbfc;
+  --color-suggestion-text: #246f6b;
+  --color-font: #58595b;
+  --color-backGround: #fbfbfb;
+  --color-button-bg: #ecfbfc;
+}
+@font-face {
+  font-family: 'Yekan';
+  src: url('/font/BYekan/BYekan+.ttf') format('truetype');
+}
+body{
+  font-family: 'Yekan', sans-serif;
+  color: #58595b;
+}
