@@ -16,6 +16,7 @@ export default function ProductCard({ product }) {
         alt={product.title}
         fill
         className="object-contain rounded-md"
+        unoptimized
       />
     </div>
     <h2 className="text-sm font-medium line-clamp-2 min-h-[40px]">{product.title}</h2>
