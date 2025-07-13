@@ -14,6 +14,9 @@ export default function ProductCard({ product }) {
       <Image
         src={product.image_url}
         alt={product.title}
+        width={500}
+        height={300}
+        quality={75}
         fill
         className="object-contain rounded-md"
         unoptimized
