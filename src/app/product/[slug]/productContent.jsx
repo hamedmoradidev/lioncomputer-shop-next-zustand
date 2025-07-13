@@ -23,6 +23,8 @@ export default function ProductContent({ product }) {
                 src={product.image_url}
                 alt={product.title}
                 className="w-24 h-24 rounded-lg cursor-pointer"
+                quality={75}
+                unoptimized
               />
           </div>
         </div>
