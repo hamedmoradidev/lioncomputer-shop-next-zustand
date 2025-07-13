@@ -15,6 +15,7 @@ export default function ProductContent({ product }) {
             width={600}
             height={600}
             className="w-full h-auto rounded-xl border"
+            unoptimized
           />
           <div className="flex gap-2 overflow-x-auto">
               <img
