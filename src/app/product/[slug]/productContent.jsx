@@ -14,6 +14,8 @@ export default function ProductContent({ product }) {
             alt={product.title}
             width={600}
             height={600}
+            quality={75}
+            unoptimized
             className="w-full h-auto rounded-xl border"
           />
           <div className="flex gap-2 overflow-x-auto">
